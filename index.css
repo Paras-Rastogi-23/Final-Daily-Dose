@@ -1,0 +1,79 @@
+ #First-div{
+   background-color: cyan;
+ }
+
+ .column{
+    float: left;
+    width: 25%;
+  }
+
+  .column:hover{
+    background-color: white;
+  }
+
+  .column:active{
+    background-color: black;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column{
+    text-align: center;
+  }
+
+  #para{
+    color: blue;
+  }
+  
+  #para:active{
+    color: white;
+  }
+  
+  div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    margin-inline: 10%;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+  
+
+/* @media (min-width: 567px) {
+    .navbar-brand
+    {
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .navbar {
+        min-height: 90px;
+    }
+} */
+
+li {
+  display: table; /* keep the background color wrapped tight */
+  margin: 0px auto 0px auto; /* keep the table centered */
+  padding:5px;font-size:20px;
+}
+small{
+  text-decoration-line: underline;
+}
+small:hover{
+  text-shadow: tomato;
+}
